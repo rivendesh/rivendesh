@@ -1,147 +1,132 @@
-<!-- ---
-title: "Desh Iyer"
-permalink: /
-layout: default
---- -->
+# Hello. My name is Desh Iyer.
 
-# Hi, I'm Desh Iyer.
+I'm a Deep Learning and Distributed Computing Researcher working at the intersection of AI, distributed systems, and high-energy physics. I've contributed to research at KEK and CERN, and generative model optimization at IBM.
 
-I'm a software engineer and researcher passionate about artificial intelligence, machine learning, and distributed systems. With a B.Tech in Computer Science & Engineering (Hons.) specializing in AI/ML, I have gained experience in developing robust and efficient solutions for real-world challenges.
+[LinkedIn](https://www.linkedin.com/in/deshiyer)
 
-I've contributed to high-impact projects, including distributed computing research at KEK and CERN and generative model optimization at IBM. My academic and professional journey has been shaped by an interest in algorithmic design, computational theories, and generative systems, which has resulted in projects such as automating code documentation with open-source LLMs and developing tools to streamline research workflows.
+This README is a directory of my open-source code on GitHub.
 
-I value collaboration, learning new things, and coming up with creative solutions to problems. My curiosity and passion for problem solving motivate me to contribute to the future of AI by developing systems that are clear, efficient, and meaningful. I'd love to connect and discuss ideas or opportunities in technology and research!
+## Table of contents
 
-This `README` is a list of all my public repositories hosted either on my GitHub or on other domains.
+- [AI & Machine Learning](#ai--machine-learning)
+  - [LLMs & NLP](#llms--nlp)
+  - [Neural Network Foundations](#neural-network-foundations)
+- [Data Science & Analytics](#data-science--analytics)
+- [Signal Processing & Systems](#signal-processing--systems)
+  - [Digital Signal Processing](#digital-signal-processing)
+  - [C++ & Systems](#c--systems)
+- [Creative Coding](#creative-coding)
+- [Tutorials & Guides](#tutorials--guides)
+  - [ML/DL Frameworks](#mldl-frameworks)
+  - [Languages & Tools](#languages--tools)
+- [Academic](#academic)
+- [Config & Tooling](#config--tooling)
+- [Archive](#archive)
 
-***
+## AI & Machine Learning
 
-## Table of Contents
+### LLMs & NLP
 
-- [Hi, I'm Desh Iyer.](#hi-im-desh-iyer)
-  - [Table of Contents](#table-of-contents)
-- [Projects](#projects)
-  - [Large Language Modelling](#large-language-modelling)
-  - [Music Composition](#music-composition)
-  - [Signal Processing](#signal-processing)
-- [Computational Notebooks](#computational-notebooks)
-  - [Machine Learning and EDA](#machine-learning-and-eda)
-  - [Deep Learning](#deep-learning)
-- [Tutorials](#tutorials)
-  - [Machine Learning and Frameworks](#machine-learning-and-frameworks)
-  - [Programming and Tools](#programming-and-tools)
-- [Creative Programming](#creative-programming)
-- [Competitive Programming](#competitive-programming)
-- [C++](#c)
-- [Config Files](#config-files)
-
-
-<!--
-| **#** | **Section** |
-| --- | --- |
-| 1 | [Projects](#1-projects) |
-| 2 | [University](#2-university) |
-| 3 | [Computational Notebooks](#3-computational-notebooks) |
-| 3.1 | [Machine Learning and EDA](#31-machine-learning-and-eda) |
-| 3.2 | [Deep Learning](#32-deep-learning) |
-| 4 | [Tutorials](#4-tutorials) |
-| 5 | [C++](#5-c) |
-| 6 | [Processing \& p5.js](#6-processing--p5js) |
-| 7 | [Competitive Programming](#7-competitive-programming) |
-| 8 | [Config Files](#8-config-files) | -->
-
-# Projects
-
-## Large Language Modelling
-
-| **Repository** | **Description** |
+| repo | description |
 |---|---|
-| [whats-up-doc](https://github.com/0xVolt/whats-up-doc) | A command-line tool leveraging LangChain & LLMs for language-agnostic code documentation |
-| [splice-and-dice](https://github.com/0xVolt/splice-and-dice) | Modularizing Multi-Source Text Summarization with Transformer-based Deep Learning and NLP techniques in a Web Application |
+| [whats-up-doc](https://github.com/rivendesh/whats-up-doc) | Code documentation CLI using LangChain & LLMs |
+| [splice-and-dice](https://github.com/rivendesh/splice-and-dice) | Multi-source text summarization with transformer-based NLP |
+| [fine-tune-t5](https://github.com/rivendesh/fine-tune-t5) | Fine-tuning T5 for document classification |
+| [train-and-save](https://github.com/rivendesh/train-and-save) | BERT model training and weight export with PyTorch |
+| [toxicity-detector-model](https://github.com/rivendesh/toxicity-detector-model) | Multi-label toxic comment classification with Gradio |
+| [llama-gpu-chain](https://github.com/rivendesh/llama-gpu-chain) | GPU-accelerated LLaMA inference with LangChain |
+| [learn-langchain](https://github.com/rivendesh/learn-langchain) | Building LLM-powered applications with LangChain |
 
-## Music Composition
+### Neural Network Foundations
 
-| **Repository** | **Description** |
+| repo | description |
 |---|---|
-| [bayesian-rhapsody](https://github.com/0xVolt/bayesian-rhapsody) | A repository to design a deep neural network to compose music. Part of the 2023 IBM summer internship |
+| [neural-networks-from-scratch](https://github.com/rivendesh/neural-networks-from-scratch) | Neural network implementation from scratch in Python |
+| [mamba-time](https://github.com/rivendesh/mamba-time) | Building a Mamba state-space model from scratch with PyTorch |
+| [bayesian-rhapsody](https://github.com/rivendesh/bayesian-rhapsody) | Deep neural network for music composition (IBM internship) |
+| [fault-in-our-stars](https://github.com/rivendesh/fault-in-our-stars) | Exoplanet detection via stellar light curve analysis |
 
-## Signal Processing
+## Data Science & Analytics
 
-| **Repository** | **Description** |
+| repo | description |
 |---|---|
-| [filter-coffee](https://github.com/0xVolt/filter-coffee) | A project to implement an FIR filter in C++ using a circular buffer for increased efficiency |
-| [dsp-with-JUCE](https://github.com/0xVolt/dsp-with-JUCE) | A project in the JUCE C++ framework to visualize different filters in real-time |
+| [fraud-detection](https://github.com/rivendesh/fraud-detection) | Credit card fraud detection with EDA and ML |
+| [loan-eligibility](https://github.com/rivendesh/loan-eligibility) | Predictive model for loan applicant approval |
+| [telecom-churn-rate-analysis](https://github.com/rivendesh/telecom-churn-rate-analysis) | Customer churn prediction and behavior analysis |
+| [exoplanet-analysis](https://github.com/rivendesh/exoplanet-analysis) | Exploratory analysis of NASA Exoplanet Archive data |
+| [DNASCANNER](https://github.com/rivendesh/DNASCANNER) | DNA sequence text analysis tool |
+| [deepfit-esque](https://github.com/rivendesh/deepfit-esque) | Pose detection for bicep curl counting |
 
-# Computational Notebooks
+## Signal Processing & Systems
 
-## Machine Learning and EDA
+### Digital Signal Processing
 
-| **Repository** | **Description** |
+| repo | description |
 |---|---|
-| [fraud-detection](https://github.com/0xVolt/fraud-detection) | This minor project in machine learning deals with fraud detection of credit card details. It's got exploratory data analysis and data visualisation |
-| [loan-eligibility](https://github.com/0xVolt/loan-eligibility) | A repository to build a predictive model to automate the process of targeting the right applicants for a loan |
-| [telecom-churn-rate-analysis](https://github.com/0xVolt/telecom-churn-rate-analysis) | This repository contains analysis of the Telecom Churn Dataset, exploring customer behavior patterns and predicting churn using machine learning techniques |
+| [filter-coffee](https://github.com/rivendesh/filter-coffee) | FIR filter in C++ using circular buffers |
+| [dsp-with-JUCE](https://github.com/rivendesh/dsp-with-JUCE) | Real-time audio filter visualization with JUCE |
+| [fir-simd](https://github.com/rivendesh/fir-simd) | SIMD-optimized FIR filter in C++ |
 
-## Deep Learning
+### C++ & Systems
 
-| **Repository** | **Description** |
+| repo | description |
 |---|---|
-| [create-deep-learning-environments](https://github.com/0xVolt/create-deep-learning-environments) | A repository that documents the right way to create virtual environments and link them to Jupyter kernels for deep learning projects |
-| [neural-networks-from-scratch](https://github.com/0xVolt/neural-networks-from-scratch) | A repository documenting the fundamental mathematics and programming that goes into building a neural network from scratch in Python |
-| [train-and-save](https://github.com/0xVolt/train-and-save) | A repository that documents how a model is trained in one notebook and its weights exported and loaded into another notebook with Pytorch. The example is a BERT model for document classification |
-| [fine-tune-t5](https://github.com/0xVolt/fine-tune-t5) | A repository that takes a pre-trained T5 model from HuggingFace and fine-tunes it on a dataset of labelled newspaper articles for document classification |
-| [toxicity-detector-model](https://github.com/0xVolt/toxicity-detector-model) | A deep neural network model that detects toxic comments through multi-binary classification hosted on a Gradio application |
-| [deepfit-esque](https://github.com/0xVolt/DNASCANNER) | An AI driven pose detection program that implements an easy scalable CV model to count bicep curls |
+| [dsa-prep](https://github.com/rivendesh/dsa-prep) | Data structures and algorithms practice in C++ |
 
-# Tutorials
+## Creative Coding
 
-## Machine Learning and Frameworks
-
-| **Repository** | **Description** |
+| repo | description |
 |---|---|
-| [art-of-machine-learning](https://github.com/0xVolt/art-of-machine-learning) | A repository to document the ideal approach to a machine learning problem |
-| [learn-tensorflow](https://github.com/0xVolt/learn-tensorflow) | A repository to document learning Tensorflow, Google's end-to-end deep learning framework |
-| [learn-pytorch](https://github.com/0xVolt/learn-pytorch) | A repository to learn the building blocks of deep learning with the PyTorch deep learning framework |
-| [install-llama-cpp](https://github.com/0xVolt/install-llama-cpp) | A repository with information on how to get llama-cpp setup with GPU acceleration |
+| [the-heart-of-mathematics](https://github.com/rivendesh/the-heart-of-mathematics) | Cardioid simulation and generative art with p5.js |
+| [noisy-pixels](https://github.com/rivendesh/noisy-pixels) | Perlin noise rendering in 2D pixel space |
+| [fractal-foliage](https://github.com/rivendesh/fractal-foliage) | L-system fractal plants with p5.js |
+| [pathfinding-with-processing](https://github.com/rivendesh/pathfinding-with-processing) | A* pathfinding visualization in p5.js & Processing |
+| [p5js-project-template](https://github.com/rivendesh/p5js-project-template) | Starter template for p5.js projects in Neovim |
 
-## Programming and Tools
+## Tutorials & Guides
 
-| **Repository** | **Description** |
+### ML/DL Frameworks
+
+| repo | description |
 |---|---|
-| [learn-cmake](https://github.com/0xVolt/learn-cmake) | A repository to learn how to compile C++ projects using cmake and make |
-| [learn-cmake-linux](https://github.com/0xVolt/learn-cmake-linux) | A repository to document the process of getting started with CMAKE on Linux |
-| [learn-rust](https://github.com/0xVolt/learn-rust) | An introduction to a shiny new language named Rust |
-| [learn-flask](https://github.com/0xVolt/learn-flask) | A repository to document everything I learn about the Flask framework and its implementation in Python to create backend systems for websites |
-| [learn-next.js](https://github.com/0xVolt/learn-next.js) | A repository that documents the right way to create virtual environments and link them to Jupyter kernels for deep learning projectsA repository to document learning Next.js, one of the most popular front-end frameworks in JavaScript to build user-interfaces |
+| [art-of-machine-learning](https://github.com/rivendesh/art-of-machine-learning) | Structured approach to ML problem-solving |
+| [learn-tensorflow](https://github.com/rivendesh/learn-tensorflow) | TensorFlow deep learning framework guide |
+| [learn-pytorch](https://github.com/rivendesh/learn-pytorch) | PyTorch deep learning building blocks |
+| [install-llama-cpp](https://github.com/rivendesh/install-llama-cpp) | Setting up llama-cpp with GPU acceleration |
+| [create-deep-learning-environments](https://github.com/rivendesh/create-deep-learning-environments) | Virtual environments and Jupyter kernels for DL |
 
-# Creative Programming
+### Languages & Tools
 
-| **Repository** | **Description** |
+| repo | description |
 |---|---|
-| [fractal-foliage](https://github.com/0xVolt/fractal-foliage) | A repository that explores L-systems with p5,js |
-| [noisy-pixels](https://github.com/0xVolt/noisy-pixels) | A p5.js project to render perlin noise in 2D pixel space |
-| [pathfinding-with-processing](https://github.com/0xVolt/pathfinding-with-processing) | A visualisation of the A* pathfinding algorithm in p5js and Processing frameworks |
-| [the-heart-of-mathematics](https://github.com/0xVolt/the-heart-of-mathematics) | Simulation of a cardioid using the p5.js library in JavaScript turned into an experiment in generative art |
+| [learn-rust](https://github.com/rivendesh/learn-rust) | Introduction to the Rust language |
+| [learn-cmake](https://github.com/rivendesh/learn-cmake) | Compiling C++ with CMake and Make |
+| [learn-cmake-linux](https://github.com/rivendesh/learn-cmake-linux) | CMake workflow on Linux |
+| [learn-flask](https://github.com/rivendesh/learn-flask) | Flask framework for Python backends |
+| [learn-next.js](https://github.com/rivendesh/learn-next.js) | Next.js front-end framework guide |
+| [learn-pytest](https://github.com/rivendesh/learn-pytest) | Python unit testing with pytest |
 
-# Competitive Programming
+## Academic
 
-| **Repository** | **Description** |
+| repo | description |
 |---|---|
-| [cool-cp-questions](https://github.com/0xVolt/cool-cp-questions) | A collection of tough programming questions I've come up with |
+| [cemetery-of-culture](https://github.com/rivendesh/cemetery-of-culture) | All code from four years as a CSE undergrad |
+| [NLP-class-notebooks](https://github.com/rivendesh/NLP-class-notebooks) | Notebooks from the NLP honors course |
 
-# C++
+## Config & Tooling
 
-| **Repository** | **Description** |
+| repo | description |
 |---|---|
-| [fir-simd](https://github.com/0xVolt/fir-simd) | Efficient FIR Filter Implementation with SIMD |
-| [way-back-machine](https://github.com/0xVolt/way-back-machine) | A repository with code I wrote in school. I dug this up from a USB I had no idea existed |
+| [dotfiles](https://github.com/rivendesh/dotfiles) | Linux environment configuration |
+| [terminal-config](https://github.com/rivendesh/terminal-config) | Custom terminal prompt engine setup |
 
-# Config Files
+## Archive
 
-| **Repository** | **Description** |
+| repo | description |
 |---|---|
-| [dotfiles](https://github.com/0xVolt/dotfiles) | Find the config files for my Linux environment here, if you're into that |
-| [terminal-config](https://github.com/0xVolt/terminal-config) | A repository to share my custom terminal prompt engine configuration files |
-
-
-***
+| [cool-cp-questions](https://github.com/rivendesh/cool-cp-questions) | Collection of competitive programming problems |
+| [0xVolt.github.io](https://github.com/rivendesh/0xVolt.github.io) | Previous GitHub Pages profile site |
+| [mall-sensor-occupancy-analytics](https://github.com/rivendesh/mall-sensor-occupancy-analytics) | Arduino sensor data analytics experiment |
+| [way-back-machine](https://github.com/rivendesh/way-back-machine) | Old school code from a forgotten USB |
+| [filter-copy](https://github.com/rivendesh/filter-copy) | FIR filter exploration and pipeline testing |
+| [accidental-parser](https://github.com/rivendesh/accidental-parser) | Incomplete Python parser written from scratch |
