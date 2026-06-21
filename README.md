@@ -67,11 +67,7 @@ This README is a directory of my open-source code on GitHub.
 | [dsp-with-JUCE](https://github.com/rivendesh/dsp-with-JUCE) | Real-time audio filter visualization with JUCE |
 | [fir-simd](https://github.com/rivendesh/fir-simd) | SIMD-optimized FIR filter in C++ |
 
-### C++ & Systems
-
-| repo | description |
-|---|---|
-| [dsa-prep](https://github.com/rivendesh/dsa-prep) | Data structures and algorithms practice in C++ |
+<!-- ### C++ & Systems -->
 
 ## Creative Coding
 
