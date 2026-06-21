@@ -85,7 +85,6 @@ This README is a directory of my open-source code on GitHub.
 
 | repo | description |
 |---|---|
-| [art-of-machine-learning](https://github.com/rivendesh/art-of-machine-learning) | Structured approach to ML problem-solving |
 | [learn-tensorflow](https://github.com/rivendesh/learn-tensorflow) | TensorFlow deep learning framework guide |
 | [learn-pytorch](https://github.com/rivendesh/learn-pytorch) | PyTorch deep learning building blocks |
 | [install-llama-cpp](https://github.com/rivendesh/install-llama-cpp) | Setting up llama-cpp with GPU acceleration |
