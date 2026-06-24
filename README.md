@@ -14,6 +14,7 @@ This README is a directory of my open-source code on GitHub.
 - [Data Science & Analytics](#data-science--analytics)
 - [Signal Processing & Systems](#signal-processing--systems)
   - [Digital Signal Processing](#digital-signal-processing)
+  - [Audio Spatialization & Visualization](#audio-spatialization--visualization)
   - [C++ & Systems](#c--systems)
 - [Creative Coding](#creative-coding)
 - [Tutorials & Guides](#tutorials--guides)
@@ -30,7 +31,7 @@ This README is a directory of my open-source code on GitHub.
 | repo | description |
 |---|---|
 | [whats-up-doc](https://github.com/rivendesh/whats-up-doc) | Code documentation CLI using LangChain & LLMs |
-| [splice-and-dice](https://github.com/rivendesh/splice-and-dice) | Multi-source text summarization with transformer-based NLP |
+| [slice-and-dice](https://github.com/rivendesh/slice-and-dice) | Multi-source text summarization with transformer-based NLP |
 | [fine-tune-t5](https://github.com/rivendesh/fine-tune-t5) | Fine-tuning T5 for document classification |
 | [train-and-save](https://github.com/rivendesh/train-and-save) | BERT model training and weight export with PyTorch |
 | [toxicity-detector-model](https://github.com/rivendesh/toxicity-detector-model) | Multi-label toxic comment classification with Gradio |
@@ -67,7 +68,22 @@ This README is a directory of my open-source code on GitHub.
 | [dsp-with-JUCE](https://github.com/rivendesh/dsp-with-JUCE) | Real-time audio filter visualization with JUCE |
 | [fir-simd](https://github.com/rivendesh/fir-simd) | SIMD-optimized FIR filter in C++ |
 
+<<<<<<< HEAD
 <!-- ### C++ & Systems -->
+=======
+### Audio Spatialization & Visualization
+
+| repo | description |
+|---|---|
+| [sonosphere-p5js](https://github.com/rivendesh/sonosphere-p5js) | Audio feature manifolds rendered with p5.js |
+| [latent-space-audio-visualizer](https://github.com/rivendesh/latent-space-audio-visualizer) | Visualize audio animated in latent space with Streamlit |
+
+### C++ & Systems
+
+| repo | description |
+|---|---|
+| [dsa-prep](https://github.com/rivendesh/dsa-prep) | Data structures and algorithms practice in C++ |
+>>>>>>> d21e7f5 (Update list of repos)
 
 ## Creative Coding
 
